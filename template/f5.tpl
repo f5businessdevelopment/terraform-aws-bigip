@@ -27,7 +27,7 @@ extension_packages:
       extensionVersion: 3.36.1
       extensionUrl: file:///var/config/rest/downloads/f5-appsvcs-3.36.1-1.noarch.rpm
     - extensionType: fast
-      extensionVersion: 1.19.0
+      extensionVersion: 1.23.0
       extensionUrl: file:///var/config/rest/downloads/f5-appsvcs-templates-1.23.0-1.noarch.rpm
 extension_services:
     service_operations: []
