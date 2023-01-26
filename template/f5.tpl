@@ -66,7 +66,7 @@ for i in {1..30}; do
 done
 
 for i in {1..30}; do
-    curl -fv --retry 1 --connect-timeout 5 -L "https://github.com/F5Networks/f5-appsvcs-templates/releases/download/v1.19.0/f5-appsvcs-templates-1.19.0-1.noarch.rpm" -o "/var/config/rest/downloads/f5-appsvcs-templates-1.19.0-1.noarch.rpm" && break || sleep 10
+    curl -fv --retry 1 --connect-timeout 5 -L "https://github.com/F5Networks/f5-appsvcs-templates/releases/download/v1.23.0/f5-appsvcs-templates-1.23.0-1.noarch.rpm" -o "/var/config/rest/downloads/f5-appsvcs-templates-1.19.0-1.noarch.rpm" && break || sleep 10
 done
 
 bash /var/config/rest/downloads/f5-bigip-runtime-init-1.3.2-1.gz.run -- '--cloud aws --skip-verify --skip-toolchain-metadata-sync'
